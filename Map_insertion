@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    map<int,string>m;
+    m[101] = "sneha";
+    m[102] = "srk";
+    for(map<int,string> ::iterator ii = m.begin();ii!=m.end();ii++){
+        cout<<(*ii).first <<" "<<(*ii).second;
+    }
+    
+}
